@@ -121,6 +121,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Credits
 
+-   [IPE Company](https://github.com/IPeCompany)
 -   [Hadi Zare Irani](https://gitlab.com/hadizare)
 
 ## License
