@@ -22,7 +22,8 @@
   "bugs": {
     "url": "https://gitlab.com/hadizare/sms-type/issues"
   },
-  "homepage": "https://gitlab.com/hadizare/sms-type#readme",
+  "gitlab": "https://gitlab.com/hadizare/sms-type#readme",
+  "github": "https://github.com/IPeCompany/SmsPanelV2.TypeScript",
   "devDependencies": {
     "prettier": "^2.6.0",
     "tslint": "^6.1.3",
