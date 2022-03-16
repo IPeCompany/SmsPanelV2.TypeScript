@@ -43,7 +43,6 @@ smsir.SendLikeToLike(MessageText: string[], Mobiles: string[], SendDateTime: num
 Delete scheduled message pack
 
 ```javascript
-
 smsir.deleteScheduled(PackId: string)
 ```
 
@@ -51,7 +50,6 @@ smsir.deleteScheduled(PackId: string)
 Send verification code with predefined template
 
 ```javascript
-
 smsir.SendVerifyCode(Mobile: string, TemplateId: number, Parameters: { name: string; value: string }[])
 ```
 
@@ -59,7 +57,6 @@ smsir.SendVerifyCode(Mobile: string, TemplateId: number, Parameters: { name: str
 get report of sent message
 
 ```javascript
-
 smsir.ReportMessage(MessageId: number)
 ```
 
@@ -67,7 +64,6 @@ smsir.ReportMessage(MessageId: number)
 get report of sent message pack
 
 ```javascript
-
 smsir.ReportPack(PackId: string)
 ```
 
@@ -75,7 +71,6 @@ smsir.ReportPack(PackId: string)
 get report of Today sent Messages
 
 ```javascript
-
 smsir.ReportToday(pageSize: number = 10, pageNumber: number = 1)
 ```
 
@@ -83,7 +78,6 @@ smsir.ReportToday(pageSize: number = 10, pageNumber: number = 1)
 get report of Archived Messages
 
 ```javascript
-
 smsir.ReportArchived(fromDate: number|null, toDate: number|null, pageSize: number = 10, pageNumber: number = 1)
 ```
 
@@ -91,7 +85,6 @@ smsir.ReportArchived(fromDate: number|null, toDate: number|null, pageSize: numbe
 get report of latest received messages
 
 ```javascript
-
 smsir.ReportLatestReceived(count: number = 100)
 ```
 
@@ -99,7 +92,6 @@ smsir.ReportLatestReceived(count: number = 100)
 get report of today received messages
 
 ```javascript
-
 smsir.ReportTodayReceived(pageSize: number = 10, pageNumber: number = 1)
 ```
 
@@ -107,7 +99,6 @@ smsir.ReportTodayReceived(pageSize: number = 10, pageNumber: number = 1)
 get report of today received messages
 
 ```javascript
-
 smsir.ReportArchivedReceived(fromDate: number|null, toDate: number|null, pageSize: number = 10, pageNumber: number = 1)
 ```
 
@@ -116,7 +107,6 @@ smsir.ReportArchivedReceived(fromDate: number|null, toDate: number|null, pageSiz
 get account credit
 
 ```javascript
-
 smsir.getCredit()
 ```
 
@@ -124,7 +114,6 @@ smsir.getCredit()
 get account line numbers
 
 ```javascript
-
 smsir.getLineNumbers()
 ```
 
