@@ -5,12 +5,12 @@ sms.ir typescript package
 ## Installation
 
 ```javascript
-npm i sms-type
+npm i sms-typescript
 ```
 
 - Angular, etc
 ```javascript
-import {Smsir} from 'sms-type/lib';
+import {Smsir} from 'sms-typescript/lib';
 
 export class AppComponent implements OnInit{
   smsWebService!: any;
