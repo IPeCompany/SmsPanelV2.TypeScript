@@ -1,6 +1,6 @@
 {
   "name": "sms-type",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://gitlab.com/hadizare/sms-type/issues"
   },
-  "gitlab": "https://gitlab.com/hadizare/sms-type#readme",
+  "gitlab": "https://gitlab.com/hadizare/sms-type",
   "github": "https://github.com/IPeCompany/SmsPanelV2.TypeScript",
   "devDependencies": {
     "prettier": "^2.6.0",
