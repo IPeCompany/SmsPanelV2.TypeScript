@@ -3,7 +3,7 @@
 Official TypeScript/JavaScript SDK for SMS.ir API - Send SMS, verification codes, and bulk messages with full TypeScript support.
 
 [![npm version](https://img.shields.io/npm/v/sms-typescript.svg)](https://www.npmjs.com/package/sms-typescript)
-[![License](https://img.shields.io/npm/l/sms-typescript.svg)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
 ## Features
 
@@ -416,8 +416,8 @@ We welcome contributions from the community! Whether you want to report a bug, s
 
 ### How to Contribute
 
-- **Report Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/hadizareirani/SmsPanelV2.TypeScript/issues) on GitHub
-- **Submit Pull Requests**: Have a fix or improvement? [Create a pull request](https://github.com/hadizareirani/SmsPanelV2.TypeScript/pulls)
+- **Report Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/IPeCompany/SmsPanelV2.TypeScript/issues) on GitHub
+- **Submit Pull Requests**: Have a fix or improvement? [Create a pull request](https://github.com/IPeCompany/SmsPanelV2.TypeScript/pulls)
 - **Improve Documentation**: Help us improve docs by suggesting edits or additions
 - **Share Feedback**: Let us know how we can make this SDK better
 

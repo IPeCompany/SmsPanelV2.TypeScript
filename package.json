@@ -1,6 +1,6 @@
 {
   "name": "sms-typescript",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Official TypeScript SDK for SMS.ir API - Send SMS, verification codes, and bulk messages",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -53,7 +53,7 @@
     "messaging"
   ],
   "author": "hadi-zare-irani",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IPeCompany/SmsPanelV2.TypeScript/issues"
   },
