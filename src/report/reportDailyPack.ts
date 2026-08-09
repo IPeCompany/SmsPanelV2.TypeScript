@@ -1,4 +1,4 @@
-import { PackId, request, ResponseModel, SmsConfig } from "../utils";
+import { PackId, request, ResponseModel, SmsConfig } from "../utils/index.js";
 
 /**
  * Response from the daily pack report API

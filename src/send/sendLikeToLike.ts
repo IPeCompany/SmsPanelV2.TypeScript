@@ -1,4 +1,4 @@
-import { PackId, request, ResponseModel, SmsConfig } from "../utils";
+import { PackId, request, ResponseModel, SmsConfig } from "../utils/index.js";
 
 /**
  * Request body for sending like-to-like SMS messages

@@ -1,4 +1,4 @@
-import { request, ResponseModel, SmsConfig } from "../utils";
+import { request, ResponseModel, SmsConfig } from "../utils/index.js";
 
 /**
  * Response from the message report API

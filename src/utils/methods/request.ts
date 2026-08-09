@@ -1,5 +1,5 @@
-import { ENDPOINT } from "./constant";
-import { ApiKey, ResponseModel } from "../models";
+import { ENDPOINT } from "./constant.js";
+import { ApiKey, ResponseModel } from "../models/index.js";
 
 type RequestProps = {
   apiKey: ApiKey;

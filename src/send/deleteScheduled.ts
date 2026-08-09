@@ -1,4 +1,4 @@
-import { PackId, request, SmsConfig } from "../utils";
+import { PackId, request, SmsConfig } from "../utils/index.js";
 
 /**
  * Response from the delete scheduled SMS API

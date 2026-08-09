@@ -1,4 +1,4 @@
-import { Parameters, request, ResponseModel, SmsConfig } from "../utils";
+import { Parameters, request, ResponseModel, SmsConfig } from "../utils/index.js";
 
 /**
  * Request body for sending verification code SMS

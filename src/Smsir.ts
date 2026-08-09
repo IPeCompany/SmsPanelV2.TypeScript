@@ -4,7 +4,7 @@ import {
   createSendByURL,
   createSendLikeToLike,
   createSendVerifyCode,
-} from "./send";
+} from "./send/index.js";
 import {
   createReportMessage,
   createReportDailyPack,
@@ -14,8 +14,8 @@ import {
   createReportArchive,
   createReportReceiveLive,
   createReportReceiveArchive,
-} from "./report";
-import { createGetCredit, createGetLineNumbers } from "./settings";
+} from "./report/index.js";
+import { createGetCredit, createGetLineNumbers } from "./settings/index.js";
 
 /**
  * SMS.ir API Client Class
