@@ -24,17 +24,17 @@
  * ```
  */
 
-export { Smsir } from "./Smsir";
-export { smsBuilder } from "./smsBuilder";
+export { Smsir } from "./Smsir.js";
+export { smsBuilder } from "./smsBuilder.js";
 
-export * from "./send";
-export * from "./report";
-export * from "./settings";
-export * from "./utils/models";
+export * from "./send/index.js";
+export * from "./report/index.js";
+export * from "./settings/index.js";
+export * from "./utils/models/index.js";
 
 // Default export for easier imports
-import { Smsir } from "./Smsir";
-import { smsBuilder } from "./smsBuilder";
+import { Smsir } from "./Smsir.js";
+import { smsBuilder } from "./smsBuilder.js";
 export default { Smsir, smsBuilder };
 
 

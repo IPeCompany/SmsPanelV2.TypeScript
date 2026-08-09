@@ -1,2 +1,2 @@
-export * from "./getCredit";
-export * from "./getLineNumbers";
+export * from "./getCredit.js";
+export * from "./getLineNumbers.js";

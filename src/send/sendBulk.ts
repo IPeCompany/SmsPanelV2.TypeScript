@@ -1,5 +1,5 @@
-import { PackId, request, ResponseModel } from "../utils";
-import { SmsConfig } from "../utils/models/smsConfig";
+import { PackId, request, ResponseModel } from "../utils/index.js";
+import { SmsConfig } from "../utils/models/smsConfig.js";
 
 /**
  * Request body for sending bulk SMS messages

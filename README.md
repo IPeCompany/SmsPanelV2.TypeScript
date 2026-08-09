@@ -330,13 +330,10 @@ sms.sendBulk("Hello", ["09123456789"]).then((result) => console.log(result));
 
 ### Module System Support
 
-- **CommonJS (require)**: ✅ Fully supported - works out of the box in Node.js
-- **ES Modules (import)**: ⚠️ Requires a bundler (Webpack, Vite, Rollup, esbuild, etc.)
-  - Direct Node.js ESM usage is not currently supported due to missing `.js` extensions
-  - Works perfectly with any bundler or build tool
-  - If you need native Node.js ESM support, please open an issue
+- **CommonJS (require)**: ✅ Fully supported in Node.js
+- **ES Modules (import)**: ✅ Supported in Node.js 18+ with native `import`
 
-**Recommendation:** Use CommonJS (require) for Node.js projects, or use a bundler for ESM projects.
+Both module formats are published under `lib/cjs` and `lib/esm` with proper file extensions for Node.js ESM resolution.
 
 ## Framework Integration
 

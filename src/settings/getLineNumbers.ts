@@ -1,4 +1,4 @@
-import { request, SmsConfig } from "../utils";
+import { request, SmsConfig } from "../utils/index.js";
 
 /**
  * Creates a GetLineNumbers function with pre-configured API credentials
